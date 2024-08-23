@@ -35,7 +35,7 @@ Developed by: MANOJ MV
 RegisterNumber: 212222220023
 
 */
-
+```
 import numpy as np
 
 import matplotlib.pyplot as plt
@@ -87,6 +87,7 @@ plt.scatter(X,Y)
 plt.plot(X,y_predicted,color='red')
 
 plt.show()
+```
 
 ## Output:
 
