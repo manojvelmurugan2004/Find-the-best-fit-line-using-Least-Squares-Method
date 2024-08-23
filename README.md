@@ -60,9 +60,9 @@ denom=0 #for slope
 
 for i in range(len(X)):
 
-    &emsp;num+=(X[i]-X_mean)*(Y[i]-Y_mean)
+    num+=(X[i]-X_mean)*(Y[i]-Y_mean)
     
-    &emsp;denom+=(X[i]-X_mean)**2
+    denom+=(X[i]-X_mean)**2
 
 #calculate slope
     
