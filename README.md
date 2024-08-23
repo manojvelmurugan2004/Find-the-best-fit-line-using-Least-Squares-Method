@@ -40,21 +40,16 @@ import numpy as np
 
 import matplotlib.pyplot as plt
 
-
 X=np.array(eval(input()))
 
 Y=np.array(eval(input()))
-
 
 X_mean=np.mean(X)
 
 Y_mean=np.mean(Y)
 
-
 num=0
-
 denom=0
-
 
 for i in range(len(X)):
 
@@ -62,18 +57,15 @@ for i in range(len(X)):
     
     denom+=(X[i]-X_mean)**2
     
-
 m=num/denom
 
 b=Y_mean-m*X_mean
 
 print(m,b)
 
-
 y_predicted=m*X+b
 
 print(y_predicted)
-
 
 plt.scatter(X,Y)
 
@@ -84,14 +76,19 @@ plt.show()
 
 
 ## Output:
+
 Slope and y-intercept
+
 ![image](https://github.com/user-attachments/assets/8db3585c-0044-4db1-a540-b8aa50fc3ce3)
 
 Y predicted
+
 ![image](https://github.com/user-attachments/assets/fc79bcaa-3bcf-4309-8371-db78d2166f3a)
 
 Graph
+
 ![image](https://github.com/user-attachments/assets/a20f0adf-9e10-422e-9e4a-e7ca29821d7b)
 
 ## Result:
+
 Thus the univariate Linear Regression was implemented to fit a straight line using least squares using python programming.
