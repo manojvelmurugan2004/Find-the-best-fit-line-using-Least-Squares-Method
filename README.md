@@ -35,8 +35,7 @@ Developed by: MANOJ MV
 RegisterNumber: 212222220023
 
 */
-```
-import numpy as np
+```import numpy as np
 
 import matplotlib.pyplot as plt
 
