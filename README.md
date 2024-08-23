@@ -40,13 +40,13 @@ import numpy as np
 
 import matplotlib.pyplot as plt
 
-# Preprocessing Input data
+#Preprocessing Input data
 
 X=np.array(eval(input()))
 
 Y=np.array(eval(input()))
 
-# Mean
+#Mean
 
 X_mean=np.mean(X)
 
@@ -68,7 +68,7 @@ for i in range(len(X)):
     
 m=num/denom
 
-# calculate intercept
+#calculate intercept
 
 b=Y_mean-m*X_mean
 
