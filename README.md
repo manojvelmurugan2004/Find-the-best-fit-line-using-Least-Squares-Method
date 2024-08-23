@@ -59,8 +59,9 @@ denom=0 #for slope
 #to find sum of (xi-x') & (yi-y') & (xi-x')^2
 
 for i in range(len(X)):
-    num+=(X[i]-X_mean)*(Y[i]-Y_mean)
-    denom+=(X[i]-X_mean)**2
+
+    &emsp;num+=(X[i]-X_mean)*(Y[i]-Y_mean)
+    &emsp;denom+=(X[i]-X_mean)**2
 
 #calculate slope
     
