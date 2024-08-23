@@ -88,8 +88,6 @@ plt.plot(X,y_predicted,color='red')
 
 plt.show()
 
-
-
 ## Output:
 
 Slope and y-intercept
