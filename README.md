@@ -25,21 +25,31 @@ STEP 6: Use the slope m and the y -intercept to form the equation of the line.
 
 STEP 7:  Obtain the straight line equation Y=mX+b and plot the scatterplot.
 
+STEP 8: End
+
 ## Program:
 /*Program to implement univariate Linear Regression to fit a straight line using least squares.
+
 Developed by: MANOJ MV
+
 RegisterNumber: 212222220023
+
 */
+
 import numpy as np
+
 import matplotlib.pyplot as plt
 
 X=np.array(eval(input()))
+
 Y=np.array(eval(input()))
 
 X_mean=np.mean(X)
+
 Y_mean=np.mean(Y)
 
 num=0
+
 denom=0
 
 for i in range(len(X)):
